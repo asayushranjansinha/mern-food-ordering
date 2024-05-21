@@ -22,25 +22,25 @@ const Menu = () => {
           name="Non Veg Thali"
           description="lorem ipsum dolor"
           price={32.55}
-          image="./src/assets/hero-image-1.png"
+          image="./hero-image-1.png"
         />
         <FeaturedItemCard
           name="Non Veg Thali"
           description="lorem ipsum dolor"
           price={32.55}
-          image="./src/assets/hero-image-2.png"
+          image="./hero-image-2.png"
         />
         <FeaturedItemCard
           name="Non Veg Thali"
           description="lorem ipsum dolor"
           price={32.55}
-          image="./src/assets/hero-image-3.png"
+          image="./hero-image-3.png"
         />
         <FeaturedItemCard
           name="Non Veg Thali"
           description="lorem ipsum dolor"
           price={32.55}
-          image="./src/assets/hero-image-4.png"
+          image="./hero-image-4.png"
         />
       </div>
 
