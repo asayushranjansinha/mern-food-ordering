@@ -1,15 +1,14 @@
 import { useAuth0 } from "@auth0/auth0-react";
+import { Menu } from "lucide-react";
+import UserMenu from "./UserMenu";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetTitle,
-  SheetTrigger,
+  SheetTrigger
 } from "./ui/sheet";
-import { Menu } from "lucide-react";
-import UserMenu from "./UserMenu";
 const MobileNav = () => {
   const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
   return (
@@ -26,7 +25,7 @@ const MobileNav = () => {
           )}
         </SheetTitle>
         <Separator />
-        <SheetDescription className="flex-1 flex flex-col">
+        <div className="flex-1 flex flex-col">
           <div className="flex-1"></div>
           {isAuthenticated ? (
             <Button variant={"default"} onClick={() => logout()}>
@@ -41,7 +40,7 @@ const MobileNav = () => {
               Login
             </Button>
           )}
-        </SheetDescription>
+        </div>
       </SheetContent>
     </Sheet>
   );

@@ -28,7 +28,9 @@ const UserMenu = () => {
         <DropdownMenuItem asChild>
           <Link to={"/user-profile"}>Profile</Link>
         </DropdownMenuItem>
-        <DropdownMenuItem>Billing</DropdownMenuItem>
+        <DropdownMenuItem asChild>
+          <Link to={"/manage-restaurant"}>Manage Restaurant</Link>
+        </DropdownMenuItem>
         <DropdownMenuItem>Team</DropdownMenuItem>
         <DropdownMenuItem onClick={() => logout()}>Logout</DropdownMenuItem>
       </DropdownMenuContent>
