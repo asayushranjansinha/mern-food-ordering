@@ -17,7 +17,7 @@ const Header = () => {
             <span className="text-yellow-500"> Daawat</span>
           </span>
           <img
-            src="./src/assets/bowl.svg"
+            src="./bowl.svg"
             alt="Bowl Icon"
             className="h-8 w-8 ml-1"
           />

@@ -10,7 +10,7 @@ const HowItWorks = () => {
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-20">
         <div className="flex flex-col items-center">
           <img
-            src="./src/assets/order.png"
+            src="./order.png"
             alt="order through website"
             className="h-48"
           />
@@ -21,7 +21,7 @@ const HowItWorks = () => {
         </div>
         <div className="flex flex-col items-center">
           <img
-            src="./src/assets/delivery.png"
+            src="./delivery.png"
             alt="delivery"
             className="h-48"
           />
@@ -32,7 +32,7 @@ const HowItWorks = () => {
         </div>
         <div className="flex flex-col items-center">
           <img
-            src="./src/assets/satisfied.png"
+            src="./satisfied.png"
             alt="satisfied customer"
             className="h-48"
           />

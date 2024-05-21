@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
         <div className="order-first md:order-last">
           <img
-            src="./src/assets/banner-image-1.png"
+            src="./banner-image-1.png"
             alt="banner"
             className="h-[320px] md:h-[400px] w-full"
           />
