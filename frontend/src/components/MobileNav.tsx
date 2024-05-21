@@ -11,7 +11,7 @@ import {
 import { Menu } from "lucide-react";
 import UserMenu from "./UserMenu";
 const MobileNav = () => {
-  const { isAuthenticated, loginWithRedirect, user, logout } = useAuth0();
+  const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
   return (
     <Sheet>
       <SheetTrigger>
